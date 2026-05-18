@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 250px 15px 220px;
+}
+
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+nav p{
+    font-size: 14px;
+}
+
+nav p:hover{
+    text-decoration: underline;
+}
+
+nav .left img{
+    margin-right: 15px;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ri-search-line{
+    font-size: 18px;
+}
+.ri-shopping-cart-line{
+    font-size: 18px;
+}
+
+.profile{
+    background-color: rgb(134, 59, 190);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1739786995552-0a2ccfa62ba5?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+section{
+    position: relative;
+    align-self: center;
+}
+
+.content{
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    text-align: left;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.content p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.content button{
+    font-size: 17px;
+    padding: 10px 13px;
+    background-color:#0067b8;
+    color: white;
+    border: none;
+}
+.content button:hover{
+    background-color: #004a7f;
+    cursor: pointer;
+}
+
+
+.container3{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin : 70px 0;
+
+}
+
+.container3 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container3 .box img{
+    height: 45px;
+    width: 45px;
+}
+
+.container3 .box p{
+    font-size: 14px;
+    color:#0067b8;
+    text-decoration: underline;
+}
+
+.explain{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.explain .desc{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+.explain .desc .textt{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+.explain .desc .topimg img{
+    width: 100%;
+    height: 230px;
+
+}
+.explain .desc h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom:20px ;
+}
+.explain .desc p{
+    font-size: 18px;
+}
+.explain .desc button{
+    font-size: 14px;
+    padding: 10px 13px;
+    background-color:#0067b8;
+    color: white;
+    border: none;
+    width: fit-content;
+    margin-left: 20px;
+
+}
+
+
+.contain{
+    height: 300px;
+    background-color: red;
+}
+.contain .image{
+    height: 600px;
+    width: 95%;
+    display: flex;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1596x600);
+    background-size: cover;
+    background-position: center;
+}
